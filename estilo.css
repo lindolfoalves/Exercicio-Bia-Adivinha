@@ -1,0 +1,134 @@
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"); */
+
+*{
+    box-sizing: border-box;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48x;
+    
+    
+ 
+}
+
+body{
+    background-color: #dedede;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+
+
+   .form input[type="number"] {
+    width: 200px;
+}
+
+.ultimoResultado {
+    color: white;
+    padding: 6px;
+}
+
+.container{
+    width: 500px;
+    height: 550px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+    padding: 16px;
+}
+
+.topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topo h1{
+    width: 200px;
+    font: caption;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.topo h1 span{
+    color: #ffb431;
+}
+.container .images{
+  
+    width: 250px;
+   height: 50vh;
+  
+}
+.imagem{
+    position: absolute;
+}
+
+#bia{
+    z-index: 2;
+}
+#ganhou{
+    z-index: 1;
+}
+#perdeu{
+    z-index: -1;
+}
+
+.form{
+    flex-direction: column;
+    justify-items: center;
+    width: 100%;
+    height: 204px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  
+}
+
+.container .form input{   
+    width: 80px;
+    height: 40px;
+    border: 3px solid #DE5540;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container .form button{
+    cursor: pointer;
+    position: relative;
+    left: 2px;
+    bottom: 90px;
+    width: 10vh;
+    height: 40px;
+    border-radius: 7px;
+    background-color :#ffb431;
+    color:#DE5540;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.container .form h2{
+    position: relative;
+    top: -20px;
+}
+
+.palpites{
+    width: 300px;
+    height: 50px;
+}
+
+h2{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+#resultado{
+    color: #FFB431;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: 800;
+}

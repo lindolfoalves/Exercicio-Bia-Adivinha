@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Jogo Adivinhe um número</title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+
+<body>
+
+       
+           <div class="container">
+            <div class="topo">
+                <h1>Em que número <span>Bia</span> está pensando?</h1>
+                <div class="images">
+                    <img src="imagens/bia.png" alt="" class="imagem" id="bia">
+                    <img src="imagens/ganhou.png" alt="" class="imagem" id="ganhou">
+                    <img src="imagens/perdeu.png" alt="" class="imagem" id="perdeu">
+                </div>
+            </div>
+            <div class="form">
+                <label for="campoPalpite">Digite seu palpite: </label>
+                <input type="number" min="1" max="100" required id="campoPalpite" class="campoPalpite" />
+                <input type="submit" value="Enviar" class="enviarPalpite" />
+                <div class="resultParas">
+                    <p class="palpites"></p>
+                    <p class="ultimoResultado"></p>
+                    <p class="baixoOuAlto"></p>
+                </div>
+            </div>
+        </div>
+    
+        <script>
+            
+        </script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
