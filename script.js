@@ -6,6 +6,7 @@ const baixoOuAlto = document.querySelector(".baixoOuAlto");
 let bia = document.getElementById("bia")
 let ganhou = document.getElementById("ganhou")
 let perdeu = document.getElementById("perdeu")
+let imagens = document.querySelector("#again")
 
 const enviarPalpite = document.querySelector(".enviarPalpite");
 const campoPalpite = document.querySelector(".campoPalpite");
@@ -31,6 +32,7 @@ function checarPalpite() {
         ultimoResultado.textContent = "Parabéns! Você acertou!";
         ultimoResultado.style.backgroundColor = "green";
         baixoOuAlto.textContent = "";
+        
         setGameOver();
     } else if (contadorPalpite === 10) {
         ultimoResultado.textContent = "!!!GAME OVER!!!";
@@ -38,6 +40,8 @@ function checarPalpite() {
         setGameOver();
     } else {
         ultimoResultado.textContent = "Errado! Tente Novamente";
+        
+       
         perdeu.style.zIndex = 2
             perdeu.style.display = "block"
             ganhou.style.display = "none"
