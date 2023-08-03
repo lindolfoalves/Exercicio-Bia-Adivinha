@@ -5,6 +5,8 @@
     border: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 48x;
+    margin: 0;
+    padding: 0;
     
     
  
@@ -18,15 +20,28 @@ body{
     align-items: center;
    }
 
+  
+  
 
+   
+    /* /* margin-top: 40px;
+    margin-bottom: 40px; */
+    
+      
 
    .form input[type="number"] {
-    width: 200px;
+    width: 50px;
+    margin-bottom: 8px;
+    margin-top: 10px;
 }
+
+
 
 .ultimoResultado {
     color: white;
     padding: 6px;
+    margin-bottom: 9px;
+   
 }
 
 .container{
@@ -56,7 +71,7 @@ body{
 }
 .container .images{
   
-    width: 250px;
+   width: 250px;
    height: 50vh;
   
 }
@@ -77,21 +92,24 @@ body{
 .form{
     flex-direction: column;
     justify-items: center;
-    width: 100%;
-    height: 204px;
+    width: 80%;
+    height: 104px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    margin-top: 10px;
   
 }
 
 .container .form input{   
-    width: 80px;
+    width: 70px;
     height: 40px;
     border: 3px solid #DE5540;
     border-radius: 5px;
     text-align: center;
+    margin-bottom: 8px;
+    margin-top: 5px;
 }
 
 .container .form button{
@@ -100,7 +118,7 @@ body{
     left: 2px;
     bottom: 90px;
     width: 10vh;
-    height: 40px;
+    height: 20px;
     border-radius: 7px;
     background-color :#ffb431;
     color:#DE5540;
@@ -130,5 +148,6 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     letter-spacing: 3px;
-    font-weight: 800;
+    font-weight: 400px;
 }
+
